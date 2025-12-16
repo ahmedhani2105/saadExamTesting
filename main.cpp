@@ -1,14 +1,25 @@
 #include <iostream>
 using namespace std;
 
+int mul(int a, int c);
+int sum(int a, int b);
+
 int main(){
-    string userName;
+    string clientName;
 
     cout << "Enter ur UserName: ";
-    cin >> userName;
+    cin >> clientName;
     
-    cout << "Hi, " << userName << '\n';
+    cout << "Hi, " << clientName << '\n';
 
 
     return 0;
+}
+
+int sum(int a, int b){
+    return a + b;
+}
+
+int mul(int a, int c){
+    return a * c;
 }
