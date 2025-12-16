@@ -2,8 +2,13 @@
 using namespace std;
 
 int main(){
+    string userName;
 
-    cout << "Hi\n";
+    cout << "Enter ur UserName: ";
+    cin >> userName;
+    
+    cout << "Hi, " << userName << '\n';
+
 
     return 0;
 }
